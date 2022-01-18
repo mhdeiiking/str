@@ -26,10 +26,10 @@ By : @trprogram **
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("- Start Swap Session", callback_data="generate")],
-        [InlineKeyboardButton("- XDev", url="https://t.me/trprogram")],
+        
         [
-            InlineKeyboardButton("- Owner Acc1", url="https://t.me/ttrakos"),
-            InlineKeyboardButton("- Owner Acc2", callback_data="https://t.me/rreback")
+            InlineKeyboardButton("- Dev ", url="https://t.me/ttrakos"),
+            
       ],
         [InlineKeyboardButton("- Channel Updates ", url="https://t.me/trprogram")],
     ]
@@ -53,11 +53,11 @@ By : @trprogram **
 
 A telegram bot to retrieve pyrograms and telethon string sessions by @nbzoning
 
-Group Support : [Gabung](https://t.me/OkaeriUserbot)
+Group Support : [Gabung](https://t.me/trprogram)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @zenfrans
+Developer : ttrakos
     """
