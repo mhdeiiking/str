@@ -3,36 +3,35 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
-Hello {}
-
-If you don't trust this bot,
-1) don't read this message
-2) block bot or delete chat
-
-This Bot Works To Help You Get Session String Via Bot. Recommendations If You Want To Take String Use Another Account,
-Managed By @zenfrans
+    START = """**
+Hi,
+—— ——— ——
+Wellcome To This Bot! 
+Bot Can Swap from You A Number and give you Members! 
+Now Start Swap Your Number!
+—— ——— ——
+By : @trprogram **
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
-        [InlineKeyboardButton(text="Home", callback_data="home")]
+        [InlineKeyboardButton("- Start Swap Session", callback_data="generate")],
+        [InlineKeyboardButton(text="- Home", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")]
+        [InlineKeyboardButton("- Start Swap Session", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
-        [InlineKeyboardButton("Maintaned By", url="https://t.me/zenfrans")],
+        [InlineKeyboardButton("- Start Swap Session", callback_data="generate")],
+        [InlineKeyboardButton("- XDev", url="https://t.me/trprogram")],
         [
-            InlineKeyboardButton("How to use me", callback_data="help"),
-            InlineKeyboardButton("About", callback_data="about")
+            InlineKeyboardButton("- Owner Acc1", url="https://t.me/ttrakos"),
+            InlineKeyboardButton("- Owner Acc2", callback_data="https://t.me/rreback")
       ],
-        [InlineKeyboardButton("Other bot info", url="https://t.me/nbzoning")],
+        [InlineKeyboardButton("- Channel Updates ", url="https://t.me/trprogram")],
     ]
 
 
