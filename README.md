@@ -11,7 +11,7 @@ Telegram Bot to generate Pyrogram and Telethon String Session.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wahyu213/String-session-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mhdeiiking/str)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -47,6 +47,3 @@ Telegram Bot to generate Pyrogram and Telethon String Session.
 - `DATABASE_URL` - Will be automatically added by Heroku.
 - `MUST_JOIN` - Username/ID of your telegram channel/group.
 
-## Support and Update
-- [`Support` ](https://t.me/OkaeriUserbot)
-- [`Update` ](https://t.me/nbzoning)
