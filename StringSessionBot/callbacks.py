@@ -21,7 +21,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 text=Data.START.format(callback_query.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
-    elif query == "about":
+    elif query == "88about":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
         await bot.edit_message_text(
@@ -31,7 +31,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
-    elif query == "help":
+    elif query == "99help":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
         await bot.edit_message_text(
@@ -43,13 +43,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         )
     elif query == "generate":
         await callback_query.message.reply(
-            "Please Choose Which String You Want To Take 🙂",
+            "** Click Pyrogram Plaese! **",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
-                InlineKeyboardButton("Telethon", callback_data="telethon")
+                
             ]])
         )
-    elif query in ["pyrogram", "telethon"]:
+    elif query in ["pyrogram"]:
         await callback_query.answer()
         try:
             if query == "pyrogram":
